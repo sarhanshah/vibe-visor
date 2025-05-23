@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Private/Sensitive
+src/vibe_visor/private/
+src/vibe_visor/models/trained/
+src/vibe_visor/intelligence/advanced/
+config/api_keys.py
+data/user_data/
+
+# ML Models (your secret sauce)
+*.pkl
+*.h5
+*.pt
+*.onnx
+models/trained/
+
+# Business Logic
+src/vibe_visor/business/
+src/vibe_visor/premium/
+
+# Local Development
+.env
+.env.local
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Build outputs
+build/
+dist/
+*.egg-info/

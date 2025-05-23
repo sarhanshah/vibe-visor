@@ -1,0 +1,12 @@
+# Core dependencies
+psutil==5.9.0
+python-dotenv==1.0.0
+pynput==1.7.6
+
+# macOS specific
+pyobjc-framework-Quartz==9.0
+pyobjc-framework-ApplicationServices==9.0
+
+# Development tools (optional)
+black==23.7.0
+pytest==7.4.0
